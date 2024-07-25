@@ -1,0 +1,1096 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 0;
+
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 20px;
+    margin-right: 100px;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.franchise {
+    margin-top: -2px;
+    padding: 12px 15px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #000;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.order-online {
+    margin-top: -2px;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 25px;
+    background-color: red;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.order-online i {
+    margin-left: 5px;
+    align-items: center;
+    display: flex;
+    color: #f00;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 3px;
+}
+
+.main {
+    background-image: url("Images/2.webp");
+    background-size: cover;
+    height: 530px;
+    display: flex;
+
+}
+
+.wel {
+    display: flex;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container {
+    margin-top: -50px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 .highlight {
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+h2 {
+    margin-top: -25px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p {
+    margin-top: -15px;
+    color: #9e9e9e;
+}
+
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.brand {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+
+}
+
+.brand img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.o1 {
+    margin-top: 25px;
+    padding: 15px 40px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #000;
+    cursor: pointer;
+    float: left;
+    margin-left: 98px;
+}
+
+
+.o2 {
+    margin-top: 25px;
+    padding: 15px 40px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #000;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.o3 {
+    margin-top: 25px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    background-color: #000;
+    cursor: pointer;
+    float: right;
+    margin-right: 92px;
+}
+
+.RF {
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 1500px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.RFrencgises {
+    padding: 50px;
+    position: absolute;
+    margin-top: -160px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 .highlight {
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+h2 {
+    margin-top: -25px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p {
+    margin-top: -15px;
+    color: #9e9e9e;
+}
+
+.IMG {
+    margin-top: -960px;
+    height: auto;
+    padding-left: 920px;
+
+}
+
+.content {
+    margin-top: 50px;
+    max-width: 100%;
+    float: left;
+    margin-right: 300px;
+
+
+}
+
+.content h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 100 lighter;
+    padding-right: 350px;
+}
+
+.content h1 span {
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+
+
+}
+
+.content h2 {
+    color: red;
+    margin: 0 0 10px 0;
+    font-weight: 10px;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.content p {
+
+    margin: 10px 0;
+    display: flex;
+}
+
+.direction-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(14, 14, 14);
+    ;
+    cursor: pointer;
+    float: left;
+}
+
+.image img {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -165px;
+
+}
+
+.direction-button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+
+
+
+}
+
+.images img {
+    margin-top: 130px;
+    width: 45;
+    height: auto;
+    float: left;
+    padding-right: 80px;
+    display: flex;
+
+
+}
+
+
+
+
+.contents {
+    margin-top: -300px;
+    max-width: 100%;
+    float: right;
+    margin-right: 200px;
+
+
+
+}
+
+.contents h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 100 lighter;
+    /* padding-right: 350px; */
+}
+
+.contents h1 span {
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+
+
+}
+
+.contents h2 {
+    color: red;
+    margin: 0 0 10px 0;
+    font-weight: 10px;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.contents p {
+
+    margin: 10px 0;
+    display: flex;
+}
+
+.direction-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(14, 14, 14);
+    ;
+    cursor: pointer;
+    float: left;
+}
+
+.image img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -165px;
+
+}
+
+.direction-button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+
+
+.contentss {
+    margin-top: 70px;
+    max-width: 100%;
+    float: left;
+    margin-right: 300px;
+
+
+}
+
+.contentss h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 100 lighter;
+    padding-right: 350px;
+}
+
+.contentss h1 span {
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+
+
+}
+
+.contentss h2 {
+    color: red;
+    margin: 0 0 10px 0;
+    font-weight: 10px;
+    font-size: 24px;
+    display: flex;
+
+}
+
+.contentss p {
+
+    margin: 10px 0;
+    display: flex;
+}
+
+.direction-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(14, 14, 14);
+    ;
+    cursor: pointer;
+    float: left;
+}
+
+.image img {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -165px;
+
+}
+
+.direction-button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+
+.EF {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 2500px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.EFrencgises {
+    padding: 50px;
+    position: absolute;
+    margin-top: -2240px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 .highlight {
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+h2 {
+    margin-top: -25px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.IMGE {
+    margin-top: -1950px;
+    height: auto;
+    padding-right: 850px;
+}
+
+
+
+.loc {
+    width: 80%;
+    margin-top: -1550px;
+    position: absolute;
+    justify-content: space-evenly;
+    /* margin-right: 540px; */
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 15px;
+}
+
+.location {
+    /* background-color: #000000; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+
+.location img {
+    width: 95%;
+    height: auto;
+}
+
+.location-info {
+    padding: 15px;
+}
+
+.location-info h3 {
+    color: red;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.location-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.location-info h2 span {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.location-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.location-info button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    float: left;
+    margin-left: 65px;
+
+}
+
+.location-info button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+.locs {
+    width: 80%;
+    margin-top: -470px;
+    position: absolute;
+    justify-content: space-evenly;
+    /* margin-right: 540px; */
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 15px;
+}
+
+.locations {
+    /* background-color: #000000; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+
+.locations img {
+    width: 95%;
+    height: auto;
+}
+
+.locations-info {
+    padding: 15px;
+}
+
+.locations-info h3 {
+    color: red;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.locations-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.locations-info h2 span {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.locations-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.locations-info button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    float: left;
+    margin-left: 65px;
+
+}
+
+.locations-info button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+
+
+.locss {
+    width: 80%;
+    margin-top: 640px;
+    position: absolute;
+    justify-content: space-evenly;
+    /* margin-right: 540px; */
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 15px;
+}
+
+.locationss {
+    /* background-color: #000000; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+
+.locationss img {
+    width: 95%;
+    height: auto;
+}
+
+.locationss-info {
+    padding: 15px;
+}
+
+.locationss-info h3 {
+    color: red;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.locationss-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.locationss-info h2 span {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.locationss-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.locationss-info button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    float: left;
+    margin-left: 65px;
+
+}
+
+.locationss-info button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+
+
+.locsss {
+    width: 80%;
+    margin-top: 1730px;
+    position: absolute;
+    justify-content: space-evenly;
+    /* margin-right: 540px; */
+    display: flex;
+    gap: 15px;
+    padding: 20px 0px 15px;
+}
+
+.locationsss {
+    /* background-color: #000000; */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+
+.locationsss img {
+    width: 65%;
+    height: auto;
+}
+
+.locationsss-info {
+    padding: 15px;
+
+}
+
+.locationsss-info h3 {
+    color: red;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 100;
+
+}
+
+.locationsss-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.locationsss-info h2 span {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.locationsss-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.locationsss-info button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    float: left;
+    margin-left: 65px;
+
+}
+
+.locationsss-info button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+
+}
+
+
+.IMGEE {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    float: right;
+    padding-left: 843px;
+    margin-top: 1600px;
+}
+
+
+
+
+.VF {
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 650px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.VFrencgises {
+    padding: 50px;
+    position: absolute;
+    margin-top: -130px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 .highlight {
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+h2 {
+    margin-top: -25px;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+
+.Vcontent {
+
+    max-width: 100%;
+    /* float: left; */
+    margin-right: 300px;
+    margin-top: 120px;
+
+
+}
+
+.Vcontent h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 100 lighter;
+    padding-right: 450px;
+
+}
+
+.Vcontent h1 span {
+    font-size: 48px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+    margin-top: 50px;
+
+}
+
+.Vcontent h2 {
+    color: red;
+    margin: 0 0 10px 0;
+    font-weight: 10px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Vcontent p {
+
+    margin: 10px 0;
+    display: flex;
+}
+
+.direction-button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: rgb(14, 14, 14);
+    ;
+    cursor: pointer;
+    float: left;
+}
+
+.Vimage img {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -250px;
+
+}
+
+.direction-button i {
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 25px;
+}
+
+
+
+.EFOS {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1500px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.EFrencgisesOS {
+
+    padding: 50px;
+    position: absolute;
+    /* margin-top: -2240px;   */
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h1 .highlight {
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+h2 {
+    margin-top: -25px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.cards {
+
+    width: 100%;
+    /* position: absolute;  */
+    justify-content: space-evenly;
+    margin-right: 540px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.card {
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    color: #000;
+    padding: 20px 20px;
+}
+
+.card-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000;
+}
+
+.card h2 span {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+    color: #000;
+}
+
+.card-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #000;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+.SF {
+    width: 100%;
+
+}
+
+
+.Menus {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.menu {
+    /* background-color: #fff; */
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer{
+    background-color:  rgb(14, 14, 14);
+    padding: 20px 20px ;
+}
+
+footer img{
+    position: absolute;
+    margin-top: 220px;
+}
+
+.footer-panel1{
+    color: white;
+    height: 540px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-panel1 img{
+    margin-top: 80px;
+    margin-right: 910px;
+}
+
+.footer-panel1 ul{
+    margin-top: 200px;
+    color: white;
+    
+}
+
+.footer-panel1 ul p{
+    font-weight: 700;
+    color: white;
+}
+
+
+.footer-panel1 ul a {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 18px;
+    color: white;
+}
+
+.footer-panel1 .AS{
+margin-top: -50px;
+}
+
+/* .footer-panel3{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+/* .pages{
+   font-size: 0.7rem;
+   text-align: center;
+   padding-top: 20px;
+} */
+
+/* .copywrite{
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+} */
